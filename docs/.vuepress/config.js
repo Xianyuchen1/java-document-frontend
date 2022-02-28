@@ -9,8 +9,13 @@ module.exports = {
         logo: '/hero.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: '事务', link: '/zh/guide/transaction/事务' },
-            { text: 'Mysql', link: '/zh/guide/mysql/多数据源' },
+            {
+                text: 'Mysql', items: [
+                    { text: '事务', link: '/zh/guide/transaction/事务' },
+                    { text: '多数据源', link: '/zh/guide/mysql/多数据源' },
+                    { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
+                ]
+            },
             { text: 'Github', link: 'https://github.com/' },
             { text: 'Kubernetes', link: '/k8s/api-resources' }
         ],
@@ -40,10 +45,11 @@ module.exports = {
                 title: 'mysql',   // 必要的
                 // path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 可选的, 默认值是 1
+                sidebarDepth: 3,    // 可选的, 默认值是 1
                 children: [
                     '/zh/guide/transaction/事务',
                     '/zh/guide/mysql/多数据源',
+                    '/zh/guide/Mysql调优',
                 ]
             },
         ]
