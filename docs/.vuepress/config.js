@@ -17,7 +17,6 @@ module.exports = {
                     { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
                 ]
             },
-            { text: 'Github', link: 'https://github.com/' },
             { text: 'Kubernetes', link: '/k8s/api-resources' }
         ],
         // 设置自动生成侧边栏
@@ -51,6 +50,15 @@ module.exports = {
                     '/zh/guide/transaction/事务',
                     '/zh/guide/mysql/多数据源',
                     '/zh/guide/Mysql调优',
+                ]
+            },
+            {
+                title: 'k8s',   // 必要的
+                // path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 3,    // 可选的, 默认值是 1
+                children: [
+                    '/k8s/api-resources',
                 ]
             },
         ]
