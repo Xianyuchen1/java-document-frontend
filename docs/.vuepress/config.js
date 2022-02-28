@@ -7,6 +7,7 @@ module.exports = {
     ],
     themeConfig: {
         logo: '/hero.png',
+        repo: 'https://github.com/Xianyuchen1/java-document',
         nav: [
             { text: 'Home', link: '/' },
             {
@@ -16,7 +17,6 @@ module.exports = {
                     { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
                 ]
             },
-            { text: 'Github', link: 'https://github.com/' },
         ],
         // 设置自动生成侧边栏
         // sidebar: 'auto',
