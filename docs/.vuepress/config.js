@@ -17,6 +17,8 @@ module.exports = {
                     { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
                 ]
             },
+            { text: 'Github', link: 'https://github.com/' },
+            { text: 'Kubernetes', link: '/k8s/api-resources' }
         ],
         // 设置自动生成侧边栏
         // sidebar: 'auto',
