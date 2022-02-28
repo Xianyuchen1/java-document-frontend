@@ -13,6 +13,7 @@ module.exports = {
                 text: 'Mysql', items: [
                     { text: '事务', link: '/zh/guide/transaction/事务' },
                     { text: '多数据源', link: '/zh/guide/mysql/多数据源' },
+                    { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
                 ]
             },
             { text: 'Github', link: 'https://github.com/' },
@@ -47,6 +48,7 @@ module.exports = {
                 children: [
                     '/zh/guide/transaction/事务',
                     '/zh/guide/mysql/多数据源',
+                    '/zh/guide/Mysql调优',
                 ]
             },
         ]
