@@ -12,6 +12,7 @@ module.exports = {
             { text: '事务', link: '/zh/guide/transaction/事务' },
             { text: 'Mysql', link: '/zh/guide/mysql/多数据源' },
             { text: 'Github', link: 'https://github.com/' },
+            { text: 'Kubernetes', link: '/k8s/api-resources' }
         ],
         // 设置自动生成侧边栏
         // sidebar: 'auto',
