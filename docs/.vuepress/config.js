@@ -2,6 +2,9 @@ module.exports = {
     title: "技术文档",
     description: "这是一个技术文档",
     base: '/java-document/',
+    head: [
+        ['link', { rel: 'icon', href: 'hero.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
+    ],
     themeConfig: {
         logo: '/hero.png',
         nav: [
