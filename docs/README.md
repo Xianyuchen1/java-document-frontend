@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: hero.png
+heroImage: hero.png 
 heroText: 技术文档
 tagline: java/mysql/juc/jvm
 actionText: 快速上手 → 
