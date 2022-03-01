@@ -3,7 +3,7 @@ home: true
 heroImage: hero.png
 heroText: 技术文档
 tagline: java/mysql/juc/jvm
-actionText: 快速上手 →
+actionText: 快速上手 → 
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
