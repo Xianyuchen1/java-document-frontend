@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Build and Deploy 
+    - name: vuepress-deploy
       uses: Xianyuchen1/java-document-frontend@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
