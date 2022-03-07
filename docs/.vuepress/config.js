@@ -17,6 +17,7 @@ module.exports = {
                     { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
                 ]
             },
+            { text: 'jvm相关', link: '/zh/guide/jvm/java问题排查' },
             { text: 'Kubernetes', link: '/k8s/api-resources' }
         ],
         // 设置自动生成侧边栏
@@ -59,6 +60,16 @@ module.exports = {
                 sidebarDepth: 3,    // 可选的, 默认值是 1
                 children: [
                     '/k8s/api-resources',
+                ]
+            },
+            {
+                title: 'jvm相关',   // 必要的
+                // path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    '/zh/guide/jvm/java问题排查',
+                    '/zh/guide/jvm/MAT使用',
                 ]
             },
         ]
