@@ -15,6 +15,7 @@ module.exports = {
                     { text: '事务', link: '/zh/guide/transaction/事务' },
                     { text: '多数据源', link: '/zh/guide/mysql/多数据源' },
                     { text: 'Mysql调优', link: '/zh/guide/Mysql调优' },
+                    { text: 'Mysql Binlog', link: '/zh/guide/mysql/mysql binlog' },
                 ]
             },
             { text: 'jvm相关', link: '/zh/guide/jvm/java问题排查' },
@@ -51,6 +52,7 @@ module.exports = {
                     '/zh/guide/transaction/事务',
                     '/zh/guide/mysql/多数据源',
                     '/zh/guide/Mysql调优',
+                    '/zh/guide/mysql/mysql binlog',
                 ]
             },
             {
