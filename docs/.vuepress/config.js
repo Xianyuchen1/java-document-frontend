@@ -18,8 +18,20 @@ module.exports = {
                     { text: 'Mysql Binlog', link: '/zh/guide/mysql/mysql binlog' },
                 ]
             },
-            { text: 'jvm相关', link: '/zh/guide/jvm/java问题排查' },
-            { text: 'Kubernetes', link: '/k8s/api-resources' }
+            {
+                text: 'jvm相关', items: [
+                    { text: 'java问题排查1', link: '/zh/guide/jvm/java问题排查' },
+                    { text: 'MAT使用', link: '/zh/guide/jvm/MAT使用' },
+                    { text: 'java问题排查2', link: '/zh/guide/jvm/practice-oom' },
+                ]
+            },
+            { text: 'Kubernetes', link: '/k8s/api-resources' },
+            {
+                text: '多线程', items: [
+                    { text: '多线程', link: '/zh/guide/juc/多线程' },
+                    { text: 'ThreadLocal', link: '/zh/guide/juc/ThreadLocal' },
+                ]
+            },
         ],
         // 设置自动生成侧边栏
         // sidebar: 'auto',
@@ -72,6 +84,17 @@ module.exports = {
                 children: [
                     '/zh/guide/jvm/java问题排查',
                     '/zh/guide/jvm/MAT使用',
+                    '/zh/guide/jvm/practice-oom',
+                ]
+            },
+            {
+                title: 'juc',   // 必要的
+                // path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    '/zh/guide/juc/多线程',
+                    '/zh/guide/juc/ThreadLocal',
                 ]
             },
         ]
